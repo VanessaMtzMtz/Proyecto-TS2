@@ -353,9 +353,9 @@
 "Assets/NVIDIA/Flex/Native/Flex.cs"
 "Assets/NVIDIA/Flex/Native/FlexExt.cs"
 "Assets/NVIDIA/Flex/Native/FlexUtils.cs"
-"Assets/Scripts/CameraController.cs"
-"Assets/Scripts/ParticleController.cs"
-"Assets/Scripts/ParticleController2.cs"
+"Assets/Scripts/CharacterControler.cs"
+"Assets/Scripts/MouseLook.cs"
+"Assets/Scripts/SeguirJugador.cs"
 -langversion:9.0
 
 /deterministic
