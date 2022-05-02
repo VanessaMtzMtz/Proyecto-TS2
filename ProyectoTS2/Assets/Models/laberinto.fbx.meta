@@ -1,329 +1,174 @@
 fileFormatVersion: 2
-guid: 4c0acca9efdbc0748a9e677cc4a4275f
+guid: 6b0a5aa50569faf488288b35c3e62d4c
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Banqueta
-    second: {fileID: 2100000, guid: 3e32029c8ee31d145bb5dd251d448d01, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Concreto
-    second: {fileID: 2100000, guid: ad953dda53fd27e47bcef07804b428bc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi10
-    second: {fileID: 2100000, guid: 1f329e22d8482fd449ea580d7ea0a4a4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi11
-    second: {fileID: 2100000, guid: 9672384f53e099241ae340b82f487630, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi12
-    second: {fileID: 2100000, guid: a9c71f4a3714f654fb9df0d596d6414f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi13
-    second: {fileID: 2100000, guid: da4523ab5734e26409f7743624d2bf2e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi14
-    second: {fileID: 2100000, guid: 7b461aa9c85b9784282a96f8db7869da, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi15
-    second: {fileID: 2100000, guid: 7f10483051bea5f4490ed49638ce0d19, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi18
-    second: {fileID: 2100000, guid: d35cd7ece189c644c977a856ab8420f7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi19
-    second: {fileID: 2100000, guid: 570e42287d4029e419bd4f804854cbce, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi2
-    second: {fileID: 2100000, guid: fd434a3ba86df494883292f5e47bfe50, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi3
-    second: {fileID: 2100000, guid: ff0fc8cbc9f72df4aacde22cf049f056, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi4
-    second: {fileID: 2100000, guid: ecad801844291074e9e5883a879ef835, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi5
-    second: {fileID: 2100000, guid: 0e399aac215162146848a589bf5d9d0c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi6
-    second: {fileID: 2100000, guid: b503c0dc6a625994ca752c08c5add49d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi7
-    second: {fileID: 2100000, guid: 198bc5dd9b6f6eb4db6e911e17bb4ead, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi8
-    second: {fileID: 2100000, guid: 79adfafeb3955354aaab23f72dfc281b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Edi9
-    second: {fileID: 2100000, guid: 9a05f84cea3ba1148a1b542383c379cb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Farmacia
-    second: {fileID: 2100000, guid: 23b45acf38eb5f147b001d862c902af7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 89601451a7bc5f44195dedfe75505d04, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Noche1
-    second: {fileID: 2100000, guid: e18d7d9dfcc24f94aa7df1c15410fc81, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Noche2
-    second: {fileID: 2100000, guid: 0418e4da261ecdf408fcfedc1879e5a0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pared1
-    second: {fileID: 2100000, guid: d1f17297ba61a364e9b7f98a33323057, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pared2
-    second: {fileID: 2100000, guid: fa10405ac639f1143afc6dc21723b92d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pasto
-    second: {fileID: 2100000, guid: 1ba274c59bcd1a440b38a73d388b9c74, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: arum-g2155b8284_640
-    second: {fileID: 2100000, guid: 06ff9838e93297f41bbf0dc79cf9479e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: celandine-g9fffe41e2_640
-    second: {fileID: 2100000, guid: 9efbbac0618aa0740a7fb6bb97b02366, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: floral-g61c48b49d_640
-    second: {fileID: 2100000, guid: 45b141741e6c48644b6a0b8bddd9b874, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: floral-g7d278ee1c_640
-    second: {fileID: 2100000, guid: 2a7a1c348677b594fb75ca1c4d90766d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grass-g781ea2e7e_640
-    second: {fileID: 2100000, guid: dab69a9e90c8fe74b873820a97121b5b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grasses-g2b76874e8_640
-    second: {fileID: 2100000, guid: 353c64d9a160e6144bc76c38523b97a5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: wheat-g50f570e95_640
-    second: {fileID: 2100000, guid: 03dc792b8a9a93d4281e55e2f34bd99f, type: 2}
+      name: Bosque suelo rocoso 360 naturaleza - Descargas360
+    second: {fileID: 2800000, guid: fc0ef8d45088ec748adf0f037f4c7543, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_ConcreteFloorsDamaged0008_S
-    second: {fileID: 2800000, guid: ab20a85a7abc21e4a9987da3e64cfdae, type: 3}
+    second: {fileID: 2800000, guid: 0c370dec86cbbbd4e87db6e3ded2f49a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_Grass0110_1_seamless_S
-    second: {fileID: 2800000, guid: 8df47b334dce6c24e90ec6f7aeb2e6b4, type: 3}
+    second: {fileID: 2800000, guid: 0704e166bb36f184c931b74a1dd4deba, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_RoadMarkings0022_1_seamless_S
-    second: {fileID: 2800000, guid: fc1c184b4faea334797883115e499bd4, type: 3}
+    second: {fileID: 2800000, guid: d9b1e570fb9abc2499e5df4f3eb294a0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_RooftilesBitumen0034_S
-    second: {fileID: 2800000, guid: 7f85429b1eb22ab46b50667a271d5f32, type: 3}
+    second: {fileID: 2800000, guid: 78115fcf94901ac499bc427f4467582f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ahorro2
-    second: {fileID: 2800000, guid: 1600c00a96e84ea47aee5e307e58e680, type: 3}
+    second: {fileID: 2800000, guid: 85084853c879071469219fc911532278, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: arum-g2155b8284_640
-    second: {fileID: 2800000, guid: 5e34581df195a824a9dea65d64690f39, type: 3}
+    second: {fileID: 2800000, guid: 6f733b982694b7147a20b7de9b3f14be, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: celandine-g9fffe41e2_640
-    second: {fileID: 2800000, guid: 041216ca9a5fe0147b5d8dd9d1496f33, type: 3}
+    second: {fileID: 2800000, guid: a672da050d5dce84c8c54536c46d91e9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi1
-    second: {fileID: 2800000, guid: ede8dad1c6e73aa46af68f0afbd179d8, type: 3}
+    second: {fileID: 2800000, guid: b89f5b4ae033fc84bbf9629365694a92, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi10
-    second: {fileID: 2800000, guid: 2682ed5562e0feb439f21aba679aba1a, type: 3}
+    second: {fileID: 2800000, guid: ee34cb2fcea9617428728d252572d9b8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi11
-    second: {fileID: 2800000, guid: c30cf97b347847e48998918f5dbf1818, type: 3}
+    second: {fileID: 2800000, guid: 0618f35abe5b9fb4484b892d819f5855, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi12
-    second: {fileID: 2800000, guid: f5d0821e5c2df31458195210148f5df9, type: 3}
+    second: {fileID: 2800000, guid: d250400e613282f4c856a9a0ef87bbf2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi13
-    second: {fileID: 2800000, guid: 6329c0668f0f19b40af249a877722eb5, type: 3}
+    second: {fileID: 2800000, guid: ec217ed6ad9bf9d49a64e76b8fa18fba, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi14
-    second: {fileID: 2800000, guid: fcdaf58de63296a4282d20347d48d448, type: 3}
+    second: {fileID: 2800000, guid: 5b6ba4864f4486b428a521931b282ae8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi15
-    second: {fileID: 2800000, guid: b1f115b622bbd4248a8c4d9cae0cacbd, type: 3}
+    second: {fileID: 2800000, guid: cef0c09722c7a434f96df647248016ae, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi16
-    second: {fileID: 2800000, guid: 6f2d4cdcac0ce96498ee710406d7c340, type: 3}
+    second: {fileID: 2800000, guid: 14c3e187692738e4ea3ceae1e377cbdb, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi18
-    second: {fileID: 2800000, guid: 38419dc065fef444a95459c16c61b933, type: 3}
+    second: {fileID: 2800000, guid: e06f569486b6ffa489e1fa819fbc50ac, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi19
-    second: {fileID: 2800000, guid: 02d296642fdfdad4f86cedd9fc2dc5cd, type: 3}
+    second: {fileID: 2800000, guid: 690d8c8c97df3c04a8d8593dc96c24e4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi2
-    second: {fileID: 2800000, guid: 83baf187a8853784aa3c833e46ac3585, type: 3}
+    second: {fileID: 2800000, guid: ec7a6399f6e5656408929434e471c72b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi3
-    second: {fileID: 2800000, guid: e9802553947b2384a82f62bea2055f75, type: 3}
+    second: {fileID: 2800000, guid: 14d7e95f1d0b4244f9707a91c4c4be81, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi4
-    second: {fileID: 2800000, guid: 77e974b1553127345b9264a018a349ba, type: 3}
+    second: {fileID: 2800000, guid: ffd8981ea6639674aa5e325dde657391, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi5
-    second: {fileID: 2800000, guid: bc421c4e06f595a49873867094393712, type: 3}
+    second: {fileID: 2800000, guid: 4a8643e7d4c3cd041b8e2986f489efc2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi6
-    second: {fileID: 2800000, guid: 5c49c9630b7143b4aa33fd79db7942bf, type: 3}
+    second: {fileID: 2800000, guid: 66a10b697c9f2f34ca0f741acb7a997b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi7
-    second: {fileID: 2800000, guid: ec34aced07103e344b8ff93650656996, type: 3}
+    second: {fileID: 2800000, guid: 2128a10c33fedc94f97298a60602364e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi8
-    second: {fileID: 2800000, guid: b73b3b4e99f0d31409d0dcbda7ac40e2, type: 3}
+    second: {fileID: 2800000, guid: fafb3fb8838326b46b471f1531b4b026, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: edi9
-    second: {fileID: 2800000, guid: 6d5c11c81e986e4479935def6da50e14, type: 3}
+    second: {fileID: 2800000, guid: 1c4b1df6f919ab04e9d75c5bf67f8365, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: floral-g61c48b49d_640
-    second: {fileID: 2800000, guid: 44607329324ee9f44923cd154ac167b2, type: 3}
+    second: {fileID: 2800000, guid: 6205a6b6217fb184ebdcc42749af5e77, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: floral-g7d278ee1c_640
-    second: {fileID: 2800000, guid: b32c83ef82885c84389d7dd4426abd5d, type: 3}
+    second: {fileID: 2800000, guid: 36071c5d78c8efc4a94a556be6529c54, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: grass-g781ea2e7e_640
-    second: {fileID: 2800000, guid: 87f82b0def3b57d47b9790876308cc85, type: 3}
+    second: {fileID: 2800000, guid: a78de8f72efcfa34fb092f7b8d619e13, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: grasses-g2b76874e8_640
-    second: {fileID: 2800000, guid: 0780077268c4c9c4497925b3314adced, type: 3}
+    second: {fileID: 2800000, guid: 1f7430b14b03c6d4db142d7655fe0fde, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: noche1
-    second: {fileID: 2800000, guid: ef342d0cf7e597143b945cd7fe52d995, type: 3}
+    second: {fileID: 2800000, guid: 90910d69c6693bc489f008fdc85ee375, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: noche3
-    second: {fileID: 2800000, guid: f5c4f0b4f02170449a25a2ffe08666bd, type: 3}
+    second: {fileID: 2800000, guid: 3da03a7198f41504d84084bc436212ac, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: wheat-g50f570e95_640
-    second: {fileID: 2800000, guid: 114fed5125dfdd84c8b2ffd4fd0c54bc, type: 3}
+    second: {fileID: 2800000, guid: 24b65b9c9dc859e419304378c5f104ee, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
