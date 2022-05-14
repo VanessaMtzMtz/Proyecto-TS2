@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -124,6 +124,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &22179083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1435157319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &22179087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22179083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.0036847913, z: 0.019804934}
 --- !u!1 &35104664 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 053ed607bd8f82e48b9c97df4958a2a2,
@@ -154,7 +173,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35104664}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.1, z: 0.1}
@@ -226,6 +245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: jeringa
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed607bd8f82e48b9c97df4958a2a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053ed607bd8f82e48b9c97df4958a2a2, type: 3}
 --- !u!1 &59748731 stripped
@@ -258,7 +282,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59748731}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.3, z: 0.1}
@@ -330,6 +354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GelAntibacterial 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bee4ce2dcdf43a246bb17f222de82162,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
+      objectReference: {fileID: 0}
     - target: {fileID: 6317578925029434746, guid: bee4ce2dcdf43a246bb17f222de82162,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -377,7 +406,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129957751}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
@@ -412,7 +441,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215039856}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.3, z: 0.1}
@@ -483,6 +512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -567,6 +601,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -714,7 +753,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381394960}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.1, z: 0.1}
@@ -785,6 +824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GelAntibacterial 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bee4ce2dcdf43a246bb17f222de82162,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
       objectReference: {fileID: 0}
     - target: {fileID: 6317578925029434746, guid: bee4ce2dcdf43a246bb17f222de82162,
         type: 3}
@@ -869,6 +913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cubrebocas 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5725affd321f5704eb06cb757096a522,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5725affd321f5704eb06cb757096a522, type: 3}
@@ -970,6 +1019,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 84.509, y: 180, z: -2.081}
+--- !u!1 &471930573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 983293412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &471930577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471930573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.0036847913, z: 0.019804938}
+--- !u!1 &526244850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1964363177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &526244854
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526244850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.003684792, z: 0.019804938}
+--- !u!1 &583825621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 857987460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &583825625
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583825621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.0036847913, z: 0.019804938}
 --- !u!1001 &606557172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1052,6 +1158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
 --- !u!1001 &611431607
@@ -1120,6 +1231,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cubrebocas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5725affd321f5704eb06cb757096a522,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5725affd321f5704eb06cb757096a522, type: 3}
@@ -1331,6 +1447,44 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!1 &708510405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1112615374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &708510409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708510405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.00847501, y: 0.003684792, z: 0.019804938}
+--- !u!1 &748227407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 768713034}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &748227411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748227407}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475085, y: 0.003684672, z: 0.019804938}
 --- !u!1001 &768713034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1397,6 +1551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -1482,6 +1641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
 --- !u!1001 &857987460
@@ -1550,6 +1714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -1637,6 +1806,25 @@ Transform:
   m_Father: {fileID: 1189222567}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &970237605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1922952226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &970237609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970237605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.003684792, z: 0.01980493}
 --- !u!1001 &983293412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1703,6 +1891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -1773,6 +1966,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: jeringa2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed607bd8f82e48b9c97df4958a2a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053ed607bd8f82e48b9c97df4958a2a2, type: 3}
 --- !u!1001 &1021128297
@@ -1841,6 +2039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GelAntibacterial 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bee4ce2dcdf43a246bb17f222de82162,
+        type: 3}
+      propertyPath: m_TagString
+      value: Cura
       objectReference: {fileID: 0}
     - target: {fileID: 6317578925029434746, guid: bee4ce2dcdf43a246bb17f222de82162,
         type: 3}
@@ -2021,6 +2224,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1040926494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040926488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ddd4f19b027dc4fb1d7769482b30ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1051792295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 776134462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1051792299
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051792295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.008475033, y: 0.003684792, z: 0.019804938}
 --- !u!1001 &1112615374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2103,8 +2337,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
+--- !u!1 &1170641143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 362266026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1170641147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170641143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.003684792, z: 0.019804938}
 --- !u!1 &1189222565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,7 +2394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensibilidad: 300
-  limitesCamara: {x: -60, y: 60}
+  limitesCamara: {x: 0, y: 0}
 --- !u!4 &1189222567
 Transform:
   m_ObjectHideFlags: 0
@@ -2197,11 +2455,30 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228604232}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.3, z: 0.1}
   m_Center: {x: 0, y: 0.1, z: 0}
+--- !u!1 &1252693860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 279728228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1252693864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252693860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475085, y: 0.0036847913, z: 0.019804997}
 --- !u!1001 &1292755078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2271,6 +2548,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b0a5aa50569faf488288b35c3e62d4c, type: 3}
+--- !u!1 &1305353296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 606557172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1305353300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305353296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.00847501, y: 0.003684792, z: 0.019804938}
+--- !u!1 &1318889406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 2069375654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1318889410
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318889406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.0036847913, z: 0.019804938}
+--- !u!1 &1371894268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1896293889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1371894272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371894268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117932, y: 0.1363344, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.0036847913, z: 0.019804938}
 --- !u!1 &1373990370 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5725affd321f5704eb06cb757096a522,
@@ -2301,7 +2635,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373990370}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
@@ -2403,6 +2737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -2533,7 +2872,7 @@ GameObject:
   - component: {fileID: 1523544189}
   m_Layer: 0
   m_Name: Particles (1)
-  m_TagString: Untagged
+  m_TagString: Covid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6370,7 +6709,7 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 2
     inside: 1
     outside: 0
@@ -7332,6 +7671,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -139.823, y: 0, z: 0}
+--- !u!1 &1567283045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1995590108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1567283049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567283045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16117929, y: 0.13633443, z: 0.045779914}
+  m_Center: {x: -0.008475025, y: 0.003684792, z: 0.019804938}
 --- !u!1 &1609059428
 GameObject:
   m_ObjectHideFlags: 0
@@ -7687,7 +8045,7 @@ GameObject:
   - component: {fileID: 1833061108}
   m_Layer: 0
   m_Name: Particles
-  m_TagString: Untagged
+  m_TagString: Covid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11524,7 +11882,7 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 2
     inside: 1
     outside: 0
@@ -12667,6 +13025,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
 --- !u!1001 &1922952226
@@ -12750,6 +13113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: covid (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
@@ -12835,6 +13203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
 --- !u!1001 &1995590108
@@ -12919,6 +13292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
 --- !u!1001 &2069375654
@@ -12988,6 +13366,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: covid (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df1fbd8937582f344af0b4f5c60b0d94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Covid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1fbd8937582f344af0b4f5c60b0d94, type: 3}
 --- !u!1 &2071245958
@@ -13003,7 +13386,7 @@ GameObject:
   - component: {fileID: 2071245959}
   m_Layer: 0
   m_Name: Particles (2)
-  m_TagString: Untagged
+  m_TagString: Covid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16840,7 +17223,7 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 2
     inside: 1
     outside: 0
