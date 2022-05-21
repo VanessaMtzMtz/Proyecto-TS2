@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterControler : MonoBehaviour
 {
@@ -8,13 +9,52 @@ public class CharacterControler : MonoBehaviour
     public Transform camara;
     private float referenciaSmooth;
     private float smoothAngulo = 20f;
+    public Image barraDeVida;
+    public float vidaActual = 90;
+    public float vidaMaxima = 100;
 
-    // Update is called once per frame
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other);
+        if (other.CompareTag("Cura"))
+        {
+            print("curado");
+            Destroy(other.gameObject, .5f);
+            vidaActual = vidaActual + 50;
+        }
+
+        if (other.CompareTag("Cubrebocas"))
+        {
+            print("curado");
+            Destroy(other.gameObject, .5f);
+            vidaActual = vidaActual + 10;
+        }
+
+        if (other.CompareTag("Gel"))
+        {
+            print("curado");
+            Destroy(other.gameObject, .5f);
+            vidaActual = vidaActual + 20;
+        }
+
+        if (other.CompareTag("Covid"))
+        {
+            print("Contagiado");
+            vidaActual = vidaActual - 10;
+        }
+
+        if (other.CompareTag("Infectado"))
+        {
+            print("Contagiado");
+            vidaActual = vidaActual - 15;
+        }
+    }
+
     void Update()
     {
-
         Caminar();
         Agacharse();
+        barraDeVida.fillAmount = vidaActual / vidaMaxima;
     }
 
     void Caminar()

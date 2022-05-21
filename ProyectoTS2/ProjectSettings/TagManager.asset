@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Cura
   - Covid
+  - Infectado
+  - Gel
+  - Cubrebocas
   layers:
   - Default
   - TransparentFX
