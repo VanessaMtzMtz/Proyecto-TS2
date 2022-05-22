@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CharacterControler : MonoBehaviour
 {
@@ -32,6 +32,7 @@ public class CharacterControler : MonoBehaviour
             print("curado");
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 50;
+            SceneManager.LoadScene("Winner");
         }
 
         if (other.CompareTag("Cubrebocas"))
@@ -68,6 +69,10 @@ public class CharacterControler : MonoBehaviour
         Caminar();
         Agacharse();
         barraDeVida.fillAmount = vidaActual / vidaMaxima;
+        if(vidaActual <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     void Caminar()
