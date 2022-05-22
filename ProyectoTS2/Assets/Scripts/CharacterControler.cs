@@ -2,21 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CharacterControler : MonoBehaviour
 {
     public Animator anim;
     public Transform camara;
+    public Image barraDeVida;
     private float referenciaSmooth;
     private float smoothAngulo = 20f;
-    public Image barraDeVida;
     public float vidaActual = 90;
     public float vidaMaxima = 100;
+    public GameObject WarningTextPrefab;
+
 
     void OnTriggerEnter(Collider other)
     {
+
         Debug.Log(other);
         if (other.CompareTag("Cura"))
+        {
+            print("curado");
+            Destroy(other.gameObject, .5f);
+            vidaActual = vidaActual + 50;
+        }
+
+        if (other.CompareTag("Refuerzo"))
         {
             print("curado");
             Destroy(other.gameObject, .5f);
@@ -40,13 +51,15 @@ public class CharacterControler : MonoBehaviour
         if (other.CompareTag("Covid"))
         {
             print("Contagiado");
-            vidaActual = vidaActual - 10;
+            vidaActual = vidaActual - 15;
+            MostrarAdvertencia();
         }
 
         if (other.CompareTag("Infectado"))
         {
             print("Contagiado");
             vidaActual = vidaActual - 15;
+            MostrarAdvertencia();
         }
     }
 
@@ -96,5 +109,12 @@ public class CharacterControler : MonoBehaviour
         {
             anim.SetTrigger("Jump");
         }
+    }
+
+    public void MostrarAdvertencia()
+    {
+        GameObject texto = Instantiate(WarningTextPrefab);
+        texto.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 1, this.gameObject.transform.position.z);
+        texto.transform.Rotate (0,180,0);
     }
 }

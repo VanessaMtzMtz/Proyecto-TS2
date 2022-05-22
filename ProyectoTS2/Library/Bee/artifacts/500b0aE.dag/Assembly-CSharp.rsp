@@ -354,8 +354,10 @@
 "Assets/NVIDIA/Flex/Native/FlexExt.cs"
 "Assets/NVIDIA/Flex/Native/FlexUtils.cs"
 "Assets/Scripts/CharacterControler.cs"
+"Assets/Scripts/MenuController.cs"
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/SeguirJugador.cs"
+"Assets/Scripts/WarningsScript.cs"
 -langversion:9.0
 
 /deterministic

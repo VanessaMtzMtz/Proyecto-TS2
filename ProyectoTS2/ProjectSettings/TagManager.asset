@@ -9,6 +9,7 @@ TagManager:
   - Infectado
   - Gel
   - Cubrebocas
+  - Refuerzo
   layers:
   - Default
   - TransparentFX
