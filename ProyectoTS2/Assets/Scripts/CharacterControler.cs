@@ -14,7 +14,7 @@ public class CharacterControler : MonoBehaviour
     public float vidaActual = 90;
     public float vidaMaxima = 100;
     public GameObject WarningTextPrefab;
-
+    public AudioSource sonidoCubrebocas;
 
     void OnTriggerEnter(Collider other)
     {
@@ -37,14 +37,18 @@ public class CharacterControler : MonoBehaviour
 
         if (other.CompareTag("Cubrebocas"))
         {
+            sonidoCubrebocas = GetComponent<AudioSource>();
             print("curado");
+            sonidoCubrebocas.Play();
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 10;
         }
 
         if (other.CompareTag("Gel"))
         {
+            sonidoCubrebocas = GetComponent<AudioSource>();
             print("curado");
+            sonidoCubrebocas.Play();
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 20;
         }
