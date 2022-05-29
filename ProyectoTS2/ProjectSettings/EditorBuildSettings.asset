@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 04de43a0cb5218748bf03d411c9e00c2
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/Ayuda.unity
     guid: d80dd431af29fef469fc3cbdaf896cbd
+  - enabled: 1
+    path: Assets/Scenes/Intro1.unity
+    guid: 00ebfeebf65ace34ea3634ca38b02e75
+  - enabled: 1
+    path: Assets/Scenes/Intro2.unity
+    guid: 6e4c8533c71ce3e4192d3ecd079b8208
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Winner.unity
     guid: ab99392550603334884603dbd17ea5a3

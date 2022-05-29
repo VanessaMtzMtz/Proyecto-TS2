@@ -15,6 +15,8 @@ public class CharacterControler : MonoBehaviour
     public float vidaMaxima = 100;
     public GameObject WarningTextPrefab;
     public AudioSource sonidoCubrebocas;
+    public string textValue;
+    public Text textElement;
 
     void OnTriggerEnter(Collider other)
     {
@@ -25,6 +27,8 @@ public class CharacterControler : MonoBehaviour
             print("curado");
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 50;
+            textValue = "Gracias por ser responsable. ¡Te vacunaste!";
+            textElement.text = textValue;
         }
 
         if (other.CompareTag("Refuerzo"))
@@ -32,7 +36,8 @@ public class CharacterControler : MonoBehaviour
             print("curado");
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 50;
-            SceneManager.LoadScene("Winner");
+            textValue = "¡Te pusiste el refuerzo! sobreviviste";
+            textElement.text = textValue;
         }
 
         if (other.CompareTag("Cubrebocas"))
@@ -42,6 +47,8 @@ public class CharacterControler : MonoBehaviour
             sonidoCubrebocas.Play();
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 10;
+            textValue = "Cuando estes cerca de otras personas, usa cubrebocas";
+            textElement.text = textValue;
         }
 
         if (other.CompareTag("Gel"))
@@ -51,6 +58,8 @@ public class CharacterControler : MonoBehaviour
             sonidoCubrebocas.Play();
             Destroy(other.gameObject, .5f);
             vidaActual = vidaActual + 20;
+            textValue = "Desinfecta tus manos frecuentemente";
+            textElement.text = textValue;
         }
 
         if (other.CompareTag("Covid"))
@@ -58,6 +67,8 @@ public class CharacterControler : MonoBehaviour
             print("Contagiado");
             vidaActual = vidaActual - 15;
             MostrarAdvertencia();
+            textValue = "Manten la sana distancia";
+            textElement.text = textValue;
         }
 
         if (other.CompareTag("Infectado"))
@@ -65,6 +76,8 @@ public class CharacterControler : MonoBehaviour
             print("Contagiado");
             vidaActual = vidaActual - 15;
             MostrarAdvertencia();
+            textValue = "Manten la sana distancia";
+            textElement.text = textValue;
         }
     }
 
@@ -75,7 +88,17 @@ public class CharacterControler : MonoBehaviour
         barraDeVida.fillAmount = vidaActual / vidaMaxima;
         if(vidaActual <= 0)
         {
+            anim.SetTrigger("Morir");
+            textValue = "Moriste";
+            textElement.text = textValue;
+        }
+       if (textValue == "Moriste")
+        {
             SceneManager.LoadScene("GameOver");
+        }
+        if (textValue == "¡Te pusiste el refuerzo! sobreviviste")
+        {
+            SceneManager.LoadScene("Winner");
         }
     }
 

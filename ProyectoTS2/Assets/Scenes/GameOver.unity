@@ -210,7 +210,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1814742190}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: BotonStart
+        m_MethodName: BotonJugar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -979,7 +979,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1814742190}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: BotonStart
+        m_MethodName: BotonQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

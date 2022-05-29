@@ -7,7 +7,7 @@ public class MenuController : MonoBehaviour
 {
     public void BotonStart()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Intro1");
     }
 
     public void BotonHelp()
@@ -18,6 +18,16 @@ public class MenuController : MonoBehaviour
     public void BotonReturn()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void BotonJugar()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public void BotonSiguiente()
+    {
+        SceneManager.LoadScene("Intro2");
     }
 
     public void BotonQuit()
